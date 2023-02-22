@@ -1,0 +1,26 @@
+{
+  "name": "package-json-comment",
+  "version": "0.0.1",
+  "description": "This package is used to add comments in package.json",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quezhongxian/package-json-comment.git"
+  },
+  "keywords": [
+    "package.json",
+    "comment"
+  ],
+  "author": {
+    "email": "wsfcmn@163.com",
+    "name": "SFCMN"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quezhongxian/package-json-comment/issues"
+  },
+  "homepage": "https://github.com/quezhongxian/package-json-comment#readme",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
