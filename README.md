@@ -35,7 +35,7 @@ Then, you can add comment in `package.json` file, the following is an example:
 ```json
 {
   "name": "package-json-comment",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "This package is used to add comments in package.json",
   "repository": {
     "type": "git",
@@ -63,8 +63,8 @@ Then, you can add comment in `package.json` file, the following is an example:
     "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "package-json-comment": "^0.2.0",
-    "package-json-comment": "This is a comment"
+    "package-json-comment": "^0.2.1",
+    "package-json-comment": "This-is-a-comment"
   },
   "dependencies": {
     "package-json-comment": "This is a comment"
