@@ -35,11 +35,11 @@ Then, you can add comment in `package.json` file, the following is an example:
 ```json
 {
   "name": "package-json-comment",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "This package is used to add comments in package.json",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quezhongxian/package-json-comment.git"
+    "url": "git+https://github.com/SFCMN/package-json-comment.git"
   },
   "keywords": [
     "package.json",
@@ -51,9 +51,9 @@ Then, you can add comment in `package.json` file, the following is an example:
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quezhongxian/package-json-comment/issues"
+    "url": "https://github.com/SFCMN/package-json-comment/issues"
   },
-  "homepage": "https://github.com/quezhongxian/package-json-comment#readme",
+  "homepage": "https://github.com/SFCMN/package-json-comment#readme",
   "package-json-comment": "This is a comment",
   "scripts": {
     "lint": "eslint --ext .js .",
@@ -63,7 +63,7 @@ Then, you can add comment in `package.json` file, the following is an example:
     "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "package-json-comment": "^0.2.1",
+    "package-json-comment": "^0.2.2",
     "package-json-comment": "This-is-a-comment"
   },
   "dependencies": {
