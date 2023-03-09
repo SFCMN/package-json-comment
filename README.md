@@ -35,7 +35,7 @@ Then, you can add comment in `package.json` file, the following is an example:
 ```json
 {
   "name": "package-json-comment",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "This package is used to add comments in package.json",
   "repository": {
     "type": "git",
@@ -53,8 +53,8 @@ Then, you can add comment in `package.json` file, the following is an example:
   "bugs": {
     "url": "https://github.com/SFCMN/package-json-comment/issues"
   },
+  "package-json-comment": "This is a test to verify that the package itself is available",
   "homepage": "https://github.com/SFCMN/package-json-comment#readme",
-  "package-json-comment": "This is a comment",
   "scripts": {
     "lint": "eslint --ext .js .",
     "package-json-comment": "This is a comment"
@@ -63,11 +63,11 @@ Then, you can add comment in `package.json` file, the following is an example:
     "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.27.5",
-    "package-json-comment": "^0.2.2",
-    "package-json-comment": "This-is-a-comment"
+    "package-json-comment": "^0.2.3",
+    "package-json-comment": "This-is-a-test-to-verify-that-the-package-itself-is-available"
   },
   "dependencies": {
-    "package-json-comment": "This is a comment"
+    "package-json-comment": "This is a test to verify that the package itself is available"
   }
 }
 
